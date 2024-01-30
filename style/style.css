@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    margin: 130px 190px;
+    width: 250px;
+    height: 300px;
+    background-color: #FFF;
+    border: 1px solid #000;
+    transition: width 0.5s;
+      
+}
+
+.form img{
+    width: 202px;
+    height: 135px;
+    object-fit: contain;
+    margin: 15px 24px;
+    transition: transform 0.5s;
+    
+}
+
+.form p{
+    width: 202px;
+    height: 109px;
+    color: #000;
+    font-size: 12px;
+    margin: 15px 24px;    
+}
+
+.form:hover img{
+    border: 1px solid black;
+    width: 433px;
+    height: 304px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.form:hover p{
+    display: none;
+}
